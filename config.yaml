@@ -1,0 +1,44 @@
+api_keys:
+  binance: "YOUR_BINANCE_API_KEY"
+  coinbase: "YOUR_COINBASE_API_KEY"
+  kraken: "YOUR_KRAKEN_API_KEY"
+
+database:
+  host: "localhost"
+  port: 5432
+  user: "your_db_user"
+  password: "your_db_password"
+  name: "crypto_trading_bot"
+
+settings:
+  trading_enabled: true
+  log_level: "INFO"
+  telegram_notifications: true
+  sentiment_analysis_enabled: true
+  auto_trading: true
+  reinforcement_learning: true
+  arbitrage_enabled: true
+  dex_integration: true
+  copy_trading_enabled: true
+  whale_detection: true
+  moonshot_prediction: true
+
+model_training:
+  historical_data_path: "data/historical_data.csv"
+  training_epochs: 100
+  batch_size: 32
+  learning_rate: 0.001
+
+alerts:
+  telegram_chat_id: "YOUR_TELEGRAM_CHAT_ID"
+  voice_alerts_enabled: false
+
+trading:
+  default_trade_amount: 100
+  risk_management:
+    stop_loss_percentage: 5
+    take_profit_percentage: 10
+
+scraping:
+  trending_tokens_source: "Pumpfun"
+  kol_tweet_source: "Twitter"
